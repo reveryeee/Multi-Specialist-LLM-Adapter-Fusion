@@ -28,5 +28,9 @@ Our testing results are shown below:
 | **Jigsaw (Safety)** | 54.40% | 77.20% | 52.60% | 60.80% | **77.00%** |
 | **SQuAD (Reading)** | 78.80% | 73.60% | 73.40% | 83.00% | **80.20%** |
 
+<img width="1024" height="266" alt="image" src="https://github.com/user-attachments/assets/bc24726f-3f11-4b42-944f-824524f04773" />
+
+
+
 From the experimental results, we can observe that the baseline model exhibits significant shortcomings in the jigsaw scenario. Furthermore, while different expert models demonstrate improved performance in their specific target scenarios, their capabilities decline in other scenarios. 
 However, the merged model achieves multi-domain expertise while successfully mitigating catastrophic forgetting, as it shows best overall performance compared to other 4 models.
