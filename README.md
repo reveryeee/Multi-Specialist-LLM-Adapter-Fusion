@@ -13,3 +13,14 @@ The Squad v2 scenario severely tests the model's focus. The model must precisely
 
 ## Formal Logic / Semantic Entailment
 The SNLI scenario involves the purest form of logical computation. The model must determine whether the relationship between the premise (P) and the hypothesis (H) is entailment, neutrality, or contradiction. This concerns neither common sense nor safety, but solely pure semantic derivation. Therefore, the model must detect logical shifts within minute lexical variations.
+
+## Our current benchmark results (2026.03.01)
+
+
+| Task Scenario | Baseline (Original) | Jigsaw Specialist | SNLI Specialist | SQuAD Specialist | Merged Model |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **SNLI (Logic)** | 88.60% | 87.40% | 92.00% | 80.20% | **86.80%** |
+| **Jigsaw (Safety)** | 54.40% | 77.20% | 52.60% | 60.80% | **77.00%** |
+| **SQuAD (Reading)** | 78.80% | 73.60% | 73.40% | 83.00% | **80.20%** |
+
+The merged model achieves multi-domain expertise while successfully mitigating catastrophic forgetting.
